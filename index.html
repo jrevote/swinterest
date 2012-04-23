@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<script data-main="browse/browse" src="browse/lib/require-jquery.js"></script>
+		<link rel="stylesheet" href="browse/css/browse.css"/>	
+	</head>
+	<body>
+		<div id='top-bar'>
+			<a id='logo-link'><img height='30' src='browse/images/swinterest-logo-1.png'/></a>
+			<div id='nav-menu'>
+				<ul>
+					<li id='upload'><strong><a href='/v1/AUTH_swinterest/swinterest/upload.html'>[UPLOAD]</a></strong></li>
+					<li id='logout'><strong><a href='#'>[LOG OUT]</a></strong></li>
+				</li>
+			</div>
+		</div>
+		<div id='login' style='display:none'>
+			<div class='centered-login-form'>
+				<form id='login-form'>
+						<strong>account:</strong><input class='account-input' type='text' name='account'/>
+						<strong>username:</strong><input class='user-input' type='text' name='username'/>
+						<strong>password:</strong><input class='password-input' type='password' name='password'/>
+						<input id='login_button' type='submit' name='login' value='login'/>
+				</form>
+		</div>
+		</div>
+		<div id='content' class='centered'>
+		</div>
+	</body>
+</html>
+
