@@ -1,6 +1,8 @@
+SwiftStack's workshops are online here:
+http://swiftstack.com/training/
 
-SwiftStack's app deployment workshop
-http://www.swiftstack.com/swiftworkshop
+This workshop builds on top of the Swift install workshop:
+http://swiftstack.com/training/swift-install/
 
 Set your environment variables
 
